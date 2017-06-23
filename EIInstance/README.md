@@ -41,11 +41,7 @@ Note: Script refer path for JDK as "software/java". Update path to JDK in script
       -XX:+PrintGCDateStamps\
       -Xloggc:"$CARBON_HOME/repository/logs/gc.log"\
       
-5. Edit configure_instance.sh line 4 the variable product as your use 
-
-   For example if you want to use esb then
- 
-   product="wso2esb-5.0.0"
+5. Edit configure_instance.sh product variable with the produt name (wso2ei-6.1.1 or wso2esb-5.0.0)
    
 6. EI pack should be downloaded and update path to pack in script.
 
