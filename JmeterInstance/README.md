@@ -45,11 +45,7 @@ Note: Script refer path as "~/software/"
 
 8. Edit esb-perf-execution.sh file with respective hosts
 
-9. Edit esb-perf-execution.sh line 6 the variable product as your use
-
-   For example if you want to use esb then 
-   
-   product="wso2esb-5.0.0"
+9. Edit esb-perf-execution.sh product variable as you need (wso2ei-6.1.1, wso2esb-5.0.0)
 
 ## Run Scripts
 
