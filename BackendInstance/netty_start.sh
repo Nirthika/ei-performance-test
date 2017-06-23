@@ -30,4 +30,3 @@ fi
 echo "Starting Netty"
 nohup java -Xms2g -Xmx2g -XX:+PrintGC -XX:+PrintGCDetails -XX:+PrintGCDateStamps -Xloggc:/home/ubuntu/netty/netty_backend/logs/nettygc.log -jar ~/netty/netty_backend/netty-echo-service-0.1.0-SNAPSHOT.jar --port 9000 --worker-threads 3000 --sleep-time $1 </dev/null >~/netty/netty_backend/logs/netty.out 2>&1 &
 sleep 2
-
